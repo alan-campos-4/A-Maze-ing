@@ -88,14 +88,16 @@ To find the shortest path, the A* search algorithm has been chosen because it co
 
 ```
 a-maze-ing/
+├── maze_io/
+│   ├── __init__.py
+│   ├── parser.py
+│   └── visualizer.md
 ├── mazegen/
 │   ├── __init__.py
 │   ├── cell.py
 │   ├── mazegenerator.py
 │   └── README.md
 ├── a_maze_ing.py
-├── parser.py
-├── visualizer.py
 ├── config.txt
 ├── requirements.txt
 ├── Makefile
@@ -277,6 +279,15 @@ We have made use of AI to clarify concepts and debug errors.
 |alvespin|paduarte|
 |:------|:------|
 |<ul>    <li>Cell and maze classes</li><li>Perfect and imperfect<br> maze generation algorithms</li><li>Output file creation<br>and format</li>    </ul>|<ul>    <li>Configuration file parsing</li><li>ASCII representation</li><li>Interactive menu</li><li>Path finding algorithm</li><li>Seed handling</li>    </ul>|
+
+### Further modifications
+
+This repo contains changes made by *alvespin* after the project's submission.
+
+- *parser.py* and *visualizer.py* moved to their own module folder. Previously standalone files.
+- The user can type 'max' in place of an integer in a coordinate value to get the maximum value posible, taken directly from the WIDTH or HEIGHT.
+- Animation ...
+- change perfect on menu ...
 
 <!--
 ##### Mandatory values
