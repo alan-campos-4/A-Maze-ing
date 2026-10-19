@@ -1,0 +1,12 @@
+# Folders
+**/__pycache__
+**/.mypy_cache
+.venv
+.vscode
+dist
+
+# Files
+maze_analyzer.py
+*.txt
+!config.txt
+!requirements.txt
